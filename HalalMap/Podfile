@@ -6,7 +6,7 @@ platform :ios, '9.0'
 
 target 'HalalMap' do
 
-#pod 'SVProgressHUD'
+pod 'SVProgressHUD'
 
 #SDWebImage
 pod 'SDWebImage', '~>3.7'
@@ -25,19 +25,19 @@ pod 'AMapCloudMap' #云图SDK
 
 #pod 'YYKit'
 
-#pod 'UITableView+FDTemplateLayoutCell', '~> 1.4.beta'
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.4.beta'
 
 #我页面在登录状态时的 tabBar样式
 #pod 'ARSegmentPager', :git => 'https://github.com/AugustRush/ARSegmentPager.git'
 
-#pod 'MBProgressHUD', '~> 0.9.1'
+pod 'MBProgressHUD', '~> 0.9.1'
 
 #解析
-#pod 'MJExtension'
+pod 'MJExtension'
 #刷新
-#pod 'MJRefresh'
+pod 'MJRefresh'
 
 #pod 'MKNetworkKit', :head
-#pod 'MKNetworkKit'
-#pod 'Masonry'  #AutoLayout
+pod 'MKNetworkKit'
+pod 'Masonry'  #AutoLayout
 end
