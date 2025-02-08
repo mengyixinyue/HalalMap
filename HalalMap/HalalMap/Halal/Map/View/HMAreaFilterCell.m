@@ -1,5 +1,5 @@
 //
-//  HDFDiseaseFilterCell.m
+//  HMDiseaseFilterCell.m
 //  newPatient
 //
 //  Created by  on 15/8/21.
@@ -8,7 +8,7 @@
 
 #import "HMAreaFilterCell.h"
 
-#define kHDFDiseaseFilterCellHorizonMargin      (15)
+#define kHMDiseaseFilterCellHorizonMargin      (15)
 #define HMLeftTableWidth                       (116)
 
 @implementation HMAreaFilterCell
@@ -34,7 +34,7 @@
 -(void)initialUI
 {
     if (!_label) {
-        _label = [[UILabel alloc] initWithFrame:CGRectMake(kHDFDiseaseFilterCellHorizonMargin, 0, self.width -  2 * kHDFDiseaseFilterCellHorizonMargin, self.height)];
+        _label = [[UILabel alloc] initWithFrame:CGRectMake(kHMDiseaseFilterCellHorizonMargin, 0, self.width -  2 * kHMDiseaseFilterCellHorizonMargin, self.height)];
         _label.backgroundColor = [UIColor clearColor];
         _label.textColor = HMBlackColor;
         _label.textAlignment = NSTextAlignmentLeft;
@@ -77,7 +77,7 @@
     self.backgroundColor = COLOR_WITH_RGB(242, 242, 242);
 //    _lineView.frame = CGRectMake(0, self.height - 0.5, self.width, 0.5);
     _vertiaclLineView.frame = CGRectMake(self.width - 0.5, 0, 0.5, self.height);
-    _label.frame = CGRectMake(kHDFDiseaseFilterCellHorizonMargin, 0, self.width -  2 * kHDFDiseaseFilterCellHorizonMargin, self.height);
+    _label.frame = CGRectMake(kHMDiseaseFilterCellHorizonMargin, 0, self.width -  2 * kHMDiseaseFilterCellHorizonMargin, self.height);
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

@@ -176,7 +176,7 @@ HMKeyWordsCollectionViewDelegate
     _containerViewHeightConstraint.constant = keywordCollection.bottom > _scrollView.height ? (keywordCollection.bottom + 20) : (_scrollView.height + 1);
 }
 
-#pragma mark -  HDFKeyWordsCollectionViewDelegate
+#pragma mark -  HMKeyWordsCollectionViewDelegate
 -(void)HM_keyWordsCollectionView:(HMKeyWordsCollectionView *)keyWordsCollectionView didMultiselectChangedWithItems:(NSArray *)selectedItems
 {
     [_selectedTagArray removeAllObjects];

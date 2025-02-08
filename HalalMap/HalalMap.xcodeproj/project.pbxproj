@@ -213,7 +213,6 @@
 		4AC6E3341BBA2A5D00BA4025 /* HalalMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6E3331BBA2A5D00BA4025 /* HalalMapUITests.m */; };
 		4AC6E3591BBA2C4C00BA4025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6E34F1BBA2C4C00BA4025 /* AppDelegate.m */; };
 		4AC6E35C1BBA2C4C00BA4025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC6E3531BBA2C4C00BA4025 /* Main.storyboard */; };
-		4AC6E35D1BBA2C4C00BA4025 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AC6E3551BBA2C4C00BA4025 /* Info.plist */; };
 		4AC6E35E1BBA2C4C00BA4025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6E3561BBA2C4C00BA4025 /* main.m */; };
 		4AD49E0F1C1D27D200A4205B /* HMVerifyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD49E0E1C1D27D200A4205B /* HMVerifyCode.m */; };
 		4AD6E3061C2AD7AA00EC2544 /* HMFoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD6E3051C2AD7AA00EC2544 /* HMFoundCell.m */; };
@@ -690,7 +689,6 @@
 				C748B8DD256C41104DD6DAEC /* Pods-HalalMap.debug.xcconfig */,
 				A797F708B061B6644E639AB8 /* Pods-HalalMap.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -1755,7 +1753,6 @@
 				4A48EDD11CCCC81100286509 /* HMSettingViewController.xib in Resources */,
 				4AB8F91A1BE2591300AB8FE3 /* HMBaseViewController.xib in Resources */,
 				4AB8F9181BE2591300AB8FE3 /* HMBaseTabBarViewController.xib in Resources */,
-				4AC6E35D1BBA2C4C00BA4025 /* Info.plist in Resources */,
 				4A93CFC01BD2761C004EC137 /* Image.xcassets in Resources */,
 				4A1369EB1CA6CA5700C5AB79 /* HMStarView.xib in Resources */,
 			);

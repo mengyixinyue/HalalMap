@@ -1,5 +1,5 @@
 //
-//  HDFDiseaseFilterTableViewController.m
+//  HMDiseaseFilterTableViewController.m
 //  newPatient
 //
 //  Created by  on 15/8/21.
@@ -92,7 +92,7 @@ UITableViewDelegate
 //            [_rightDataArray removeAllObjects];
 //            
 //            [_leftDataArray addObjectsFromArray:result];
-//            HDFHumanCategoryModel * model = _leftDataArray[_leftSelectIndexPath.row];
+//            HMHumanCategoryModel * model = _leftDataArray[_leftSelectIndexPath.row];
 //            _rightDataArray = [NSMutableArray arrayWithArray:model.diseaseInfos];
 //            
 //            [_leftTableView reloadData];
@@ -129,7 +129,7 @@ UITableViewDelegate
 //            [_rightDataArray removeAllObjects];
 //            
 //            [_leftDataArray addObjectsFromArray:result];
-//            HDFDiseaseCategoryModel * model = _leftDataArray[_leftSelectIndexPath.row];
+//            HMDiseaseCategoryModel * model = _leftDataArray[_leftSelectIndexPath.row];
 //            _rightDataArray = [NSMutableArray arrayWithArray:model.diseaseInfos];
 //            
 //            [_leftTableView reloadData];
@@ -292,11 +292,11 @@ UITableViewDelegate
     if (tableView == _leftTableView) {
         _leftSelectIndexPath = indexPath;
         if (_categoryType == CategoryTypeArea) {
-//            HDFHumanCategoryModel * model = _leftDataArray[_leftSelectIndexPath.row];
+//            HMHumanCategoryModel * model = _leftDataArray[_leftSelectIndexPath.row];
 //            _rightDataArray = [NSMutableArray arrayWithArray:model.diseaseInfos];
         }
         else{
-//            HDFDiseaseCategoryModel * model = _leftDataArray[_leftSelectIndexPath.row];
+//            HMDiseaseCategoryModel * model = _leftDataArray[_leftSelectIndexPath.row];
 //            _rightDataArray = [NSMutableArray arrayWithArray:model.diseaseInfos];
         }
         [_rightTableView reloadData];
@@ -310,7 +310,7 @@ UITableViewDelegate
     }
 }
 
-#pragma mark - HDFEmptyViewDelegate
+#pragma mark - HMEmptyViewDelegate
 -(void)reLoadData
 {
     [self getData];

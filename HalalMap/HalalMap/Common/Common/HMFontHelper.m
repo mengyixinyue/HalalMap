@@ -1,6 +1,6 @@
 //
-//  TMTFontHelper.m
-//  TMT
+//  HMFontHelper.m
+//  HM
 //
 //  Created by yj on 15/8/13.
 //  Copyright (c) 2015年 BT. All rights reserved.

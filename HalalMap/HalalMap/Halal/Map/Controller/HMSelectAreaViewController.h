@@ -1,5 +1,5 @@
 //
-//  HDFDiseaseFilterTableViewController.h
+//  HMDiseaseFilterTableViewController.h
 //  newPatient
 //
 //  Created by  on 15/8/21.

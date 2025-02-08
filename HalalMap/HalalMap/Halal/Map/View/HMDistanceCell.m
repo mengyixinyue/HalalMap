@@ -1,5 +1,5 @@
 //
-//  HDFDiseaseNameCell.m
+//  HMDiseaseNameCell.m
 //  newPatient
 //
 //  Created by  on 15/8/21.

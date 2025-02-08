@@ -1,5 +1,5 @@
 //
-//  HDFPatientPickerView.h
+//  HMPatientPickerView.h
 //  newPatient
 //
 //  Created by  on 16/1/19.

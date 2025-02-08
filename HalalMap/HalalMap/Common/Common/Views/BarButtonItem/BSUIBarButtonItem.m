@@ -8,13 +8,13 @@
 
 #import "BSUIBarButtonItem.h"
 
-//@interface TMTNavButton : UIButton
+//@interface HMNavButton : UIButton
 //
 //- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event;
 //
 //@end
 //
-//@implementation TMTNavButton
+//@implementation HMNavButton
 //
 //- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event
 //{

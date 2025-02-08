@@ -1,5 +1,5 @@
 //
-//  HDFRankView.h
+//  HMRankView.h
 //  newDoctor
 //
 //  Created by  on 15/9/18.
