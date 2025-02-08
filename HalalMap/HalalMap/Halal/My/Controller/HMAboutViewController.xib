@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HMAboutViewController">
+            <connections>
+                <outlet property="_anchorView" destination="8Hh-rF-iKG" id="X2t-FK-iDs"/>
+                <outlet property="_anchorViewHeight" destination="XOe-fT-fvL" id="eGB-2w-6PR"/>
+                <outlet property="_anchorViewWidth" destination="0QW-VP-HHm" id="yZn-0x-5hK"/>
+                <outlet property="_containerView" destination="uzn-Kh-LsB" id="zc4-sp-rkG"/>
+                <outlet property="_scrollView" destination="vCq-1W-uwd" id="kcf-KE-c42"/>
+                <outlet property="_versionLabel" destination="neg-4G-znj" id="Nev-gC-RLy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Hh-rF-iKG">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vCq-1W-uwd">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uzn-Kh-LsB">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_64X64" translatesAutoresizingMaskIntoConstraints="NO" id="VFu-F9-M6j">
+                                    <rect key="frame" x="128" y="30" width="64" height="64"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="64" id="n9q-jn-bEz"/>
+                                        <constraint firstAttribute="height" constant="64" id="wEg-sE-vK2"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="清真地图v1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neg-4G-znj">
+                                    <rect key="frame" x="119" y="104" width="82" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="neg-4G-znj" firstAttribute="top" secondItem="VFu-F9-M6j" secondAttribute="bottom" constant="10" id="13k-tu-glm"/>
+                                <constraint firstItem="VFu-F9-M6j" firstAttribute="centerX" secondItem="uzn-Kh-LsB" secondAttribute="centerX" id="1eB-T6-Vfv"/>
+                                <constraint firstItem="neg-4G-znj" firstAttribute="centerX" secondItem="VFu-F9-M6j" secondAttribute="centerX" id="hoG-uL-AaQ"/>
+                                <constraint firstItem="VFu-F9-M6j" firstAttribute="top" secondItem="uzn-Kh-LsB" secondAttribute="top" constant="30" id="lcy-PI-3oU"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="uzn-Kh-LsB" secondAttribute="trailing" id="9sM-Rp-sju"/>
+                        <constraint firstAttribute="bottom" secondItem="uzn-Kh-LsB" secondAttribute="bottom" id="Gex-zX-O2I"/>
+                        <constraint firstItem="uzn-Kh-LsB" firstAttribute="top" secondItem="vCq-1W-uwd" secondAttribute="top" id="oIo-Iu-QaX"/>
+                        <constraint firstItem="uzn-Kh-LsB" firstAttribute="leading" secondItem="vCq-1W-uwd" secondAttribute="leading" id="pOg-3Y-WZM"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uzn-Kh-LsB" firstAttribute="width" secondItem="8Hh-rF-iKG" secondAttribute="width" id="0QW-VP-HHm"/>
+                <constraint firstAttribute="bottom" secondItem="vCq-1W-uwd" secondAttribute="bottom" id="4Uy-J7-Ywk"/>
+                <constraint firstItem="8Hh-rF-iKG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5CG-bS-YYN"/>
+                <constraint firstItem="8Hh-rF-iKG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="AXp-Ki-3e6"/>
+                <constraint firstAttribute="trailing" secondItem="8Hh-rF-iKG" secondAttribute="trailing" id="Sp1-BB-1NM"/>
+                <constraint firstItem="uzn-Kh-LsB" firstAttribute="height" secondItem="8Hh-rF-iKG" secondAttribute="height" id="XOe-fT-fvL"/>
+                <constraint firstItem="vCq-1W-uwd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cEc-wx-sfr"/>
+                <constraint firstItem="vCq-1W-uwd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gCx-2X-kdE"/>
+                <constraint firstAttribute="trailing" secondItem="vCq-1W-uwd" secondAttribute="trailing" id="u0s-KN-gIq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_64X64" width="130" height="130"/>
+    </resources>
+</document>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HMNoDataView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ufo" translatesAutoresizingMaskIntoConstraints="NO" id="geb-NO-AgV">
+                    <rect key="frame" x="95" y="208" width="130" height="95"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="95" id="3lT-uz-qL8"/>
+                        <constraint firstAttribute="width" constant="130" id="rqI-iK-4o1"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无数据" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbG-Vw-Eh5">
+                    <rect key="frame" x="0.0" y="328.5" width="320" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.99215686274509807" green="0.99215686274509807" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="pbG-Vw-Eh5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HSx-Lc-flG"/>
+                <constraint firstItem="geb-NO-AgV" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-28" id="YIL-ub-JA8"/>
+                <constraint firstItem="pbG-Vw-Eh5" firstAttribute="top" secondItem="geb-NO-AgV" secondAttribute="bottom" constant="25" id="mdV-Ji-9fh"/>
+                <constraint firstAttribute="trailing" secondItem="pbG-Vw-Eh5" secondAttribute="trailing" id="q7k-zZ-yps"/>
+                <constraint firstItem="geb-NO-AgV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wcW-jw-DTv"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tipsLabel" destination="pbG-Vw-Eh5" id="QKG-Cd-DfE"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="ufo" width="129" height="94"/>
+    </resources>
+</document>

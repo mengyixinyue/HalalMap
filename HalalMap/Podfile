@@ -1,0 +1,43 @@
+
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'HalalMap' do
+
+#pod 'SVProgressHUD'
+
+#SDWebImage
+pod 'SDWebImage', '~>3.7'
+
+#高德地图
+#pod 'AMap3DMap' #3D地图SDK
+pod 'AMap2DMap' #2D地图SDK(2D地图和3D地图不能同时使用)
+pod 'AMapLocation' #定位SDK
+#pod 'AMapSearch' #搜索服务SDK
+
+#友盟统计
+pod 'UMengAnalytics-NO-IDFA'#无IDFA版SDK（请根据需要选择）
+
+pod 'AMapCloudMap' #云图SDK
+
+
+#pod 'YYKit'
+
+#pod 'UITableView+FDTemplateLayoutCell', '~> 1.4.beta'
+
+#我页面在登录状态时的 tabBar样式
+#pod 'ARSegmentPager', :git => 'https://github.com/AugustRush/ARSegmentPager.git'
+
+#pod 'MBProgressHUD', '~> 0.9.1'
+
+#解析
+#pod 'MJExtension'
+#刷新
+#pod 'MJRefresh'
+
+#pod 'MKNetworkKit', :head
+#pod 'MKNetworkKit'
+#pod 'Masonry'  #AutoLayout
+end

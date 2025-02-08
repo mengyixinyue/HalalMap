@@ -1,0 +1,62 @@
+//
+//  PrefixHeader.pch
+//  HalalMap
+//
+//  Created by 刘艳杰 on 15/10/8.
+//  Copyright © 2015年 halalMap. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+
+#import "HMBaseNavigationController.h"
+
+#import "HMAll.h"
+
+#import "Masonry.h"
+
+#import "MJExtension.h"
+#import "MJRefresh.h"
+
+#import "MKNetworkKit.h"
+
+#import "Reachability.h"
+
+#import "UIImageView+WebCache.h"
+
+#import <YYkit/YYkit.h>
+
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+
+#import "UITableView+FDTemplateLayoutCell.h"
+
+#import <UMMobClick/MobClick.h>
+
+
+
+#define AMapKey     (@"5ec9b597510ef8a07430aa4956b8bfa0")
+
+#define HMitunesUrl [NSString stringWithFormat:@"itms-apps://itunes.apple.com/cn/app/id%@?mt=8",HMAPPID]
+
+#define HMAPPID (@"1048326081")
+
+#define HMMainColor     (COLOR_WITH_RGB(37, 155, 36))
+
+#define HMBlackColor    (COLOR_WITH_RGB(51, 51, 51))
+
+#define HMGrayColor     (COLOR_WITH_RGB(128, 128, 128))
+
+#define HMSeperatorColor (COLOR_WITH_RGB(229, 229, 229))
+
+#define HMBorderColor    (COLOR_WITH_RGB(200, 200, 200))
+
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+#endif

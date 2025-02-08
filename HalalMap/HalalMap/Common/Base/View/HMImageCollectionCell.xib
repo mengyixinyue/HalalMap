@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HMImageCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="135" height="131"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="135" height="131"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P2Q-dl-OAQ">
+                        <rect key="frame" x="0.0" y="0.0" width="135" height="131"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ydj-jl-PSl">
+                        <rect key="frame" x="0.5" y="1" width="134" height="129"/>
+                        <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="P2Q-dl-OAQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="37i-ix-b5Z"/>
+                <constraint firstAttribute="trailing" secondItem="Ydj-jl-PSl" secondAttribute="trailing" constant="1" id="CCK-KW-AKC"/>
+                <constraint firstAttribute="bottom" secondItem="Ydj-jl-PSl" secondAttribute="bottom" constant="1" id="ItB-Yc-QD8"/>
+                <constraint firstItem="Ydj-jl-PSl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1" id="Jhg-ZW-gav"/>
+                <constraint firstAttribute="bottom" secondItem="P2Q-dl-OAQ" secondAttribute="bottom" id="PvI-2B-xSL"/>
+                <constraint firstItem="P2Q-dl-OAQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VKA-yJ-9z7"/>
+                <constraint firstAttribute="trailing" secondItem="P2Q-dl-OAQ" secondAttribute="trailing" id="ko8-Zr-KqJ"/>
+                <constraint firstItem="Ydj-jl-PSl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="1" id="oRH-GC-QRa"/>
+            </constraints>
+            <size key="customSize" width="135" height="131"/>
+            <connections>
+                <outlet property="_imageView" destination="Ydj-jl-PSl" id="2NI-Mj-nyX"/>
+                <outlet property="_myBackgroundView" destination="P2Q-dl-OAQ" id="arB-Wy-S6U"/>
+                <outlet property="imageView" destination="Ydj-jl-PSl" id="1O9-No-dra"/>
+            </connections>
+            <point key="canvasLocation" x="404.5" y="205.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

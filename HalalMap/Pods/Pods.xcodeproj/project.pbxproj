@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2576DAF731B7A8E8F41D221C923A2CF4 /* AMapCloudMap */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BA47CDBE3CCFB1F8AD1D658E9C92B3AB /* Build configuration list for PBXAggregateTarget "AMapCloudMap" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AMapCloudMap;
+		};
+		39082CE2CA8065D786A75F5C09CFF2C0 /* AMapFoundation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B1CAA808A7E6FA8CFAEC9724EB0BBB9 /* Build configuration list for PBXAggregateTarget "AMapFoundation" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AMapFoundation;
+		};
+		796531B66EA1E8FC8D94C8A6835B4A5D /* UMengAnalytics-NO-IDFA */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 640C70820B5894042A6C24A3B9704E99 /* Build configuration list for PBXAggregateTarget "UMengAnalytics-NO-IDFA" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "UMengAnalytics-NO-IDFA";
+		};
+		8628BC7F8FF0BA905278BC233A7C0362 /* AMap2DMap */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8B274C3092A6DD72A1147A1D9EFF8326 /* Build configuration list for PBXAggregateTarget "AMap2DMap" */;
+			buildPhases = (
+			);
+			dependencies = (
+				C65074991712BF5B81EF8786B9CFD89C /* PBXTargetDependency */,
+			);
+			name = AMap2DMap;
+		};
+		971676D1C9A11C105647D995975ACE4F /* AMapLocation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B4496923FC367CBCE99E10C795BEFBF6 /* Build configuration list for PBXAggregateTarget "AMapLocation" */;
+			buildPhases = (
+			);
+			dependencies = (
+				71812AEEE00E21033F1E9F203D2CB728 /* PBXTargetDependency */,
+			);
+			name = AMapLocation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7DCF4684C618F3B7A48EF4BA282AEA53 /* Pods-HalalMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35088D010D64C315DE7A44E7E6F299 /* Pods-HalalMap-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		019D2A37A596275138938A60FC5E4FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39082CE2CA8065D786A75F5C09CFF2C0;
+			remoteInfo = AMapFoundation;
+		};
+		6A6BABF5003EFB48C451E020D016F28C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 971676D1C9A11C105647D995975ACE4F;
+			remoteInfo = AMapLocation;
+		};
+		C0537884031C07529287978A0C7A0D5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2576DAF731B7A8E8F41D221C923A2CF4;
+			remoteInfo = AMapCloudMap;
+		};
+		CACB5B6FAB8F3408480F0536E8168E19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39082CE2CA8065D786A75F5C09CFF2C0;
+			remoteInfo = AMapFoundation;
+		};
+		E1DF60E10A47EFB5A993139826236437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8628BC7F8FF0BA905278BC233A7C0362;
+			remoteInfo = AMap2DMap;
+		};
+		EE4C702693E3B6CD64B7FC2EE7413C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39082CE2CA8065D786A75F5C09CFF2C0;
+			remoteInfo = AMapFoundation;
+		};
+		FB9D0F9E8E13E85BF102D3012EA8310A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796531B66EA1E8FC8D94C8A6835B4A5D;
+			remoteInfo = "UMengAnalytics-NO-IDFA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01078246D1EE6F085034B2028D513AB2 /* AMapCloud.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMapCloud.bundle; path = AMapCloudKit.framework/Versions/1.2.0.5565057/Resources/AMapCloud.bundle; sourceTree = "<group>"; };
+		06898F0FFACBEE9F8738BACDDBB3A4BB /* AMapLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMapLocation.debug.xcconfig; sourceTree = "<group>"; };
+		0CD9ABF1FE539EB54E27CA59025A8A07 /* Pods-HalalMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HalalMap-acknowledgements.plist"; sourceTree = "<group>"; };
+		16D9F9D2DF473AA0B7CFEFE0301A9A2B /* Pods-HalalMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HalalMap-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AB0CE9B2243A47FBCA774BC863DC563 /* Pods-HalalMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HalalMap.release.xcconfig"; sourceTree = "<group>"; };
+		1F8D101D20C8AB840FCDE77C95F2E3E5 /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		408C8472DE1C13927B6EF746B1884341 /* AMap2DMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMap2DMap.debug.xcconfig; sourceTree = "<group>"; };
+		495A8D000B9D5D8CA327F3B772B789A5 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		4FAFC8A4C0CD9BEC3FC146F6D93B41B1 /* Pods-HalalMap */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-HalalMap"; path = "libPods-HalalMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		577918C5DCD4D5B3206519409C0BF546 /* UMengAnalytics-NO-IDFA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UMengAnalytics-NO-IDFA.release.xcconfig"; sourceTree = "<group>"; };
+		6A91B9C8DA99B923FC276EC96726ABA3 /* AMapFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMapFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		75D0C8487E095401F81BCBDF7119F89C /* AMapFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMapFoundation.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8DB29F8FB53895FD198B8FFB13ABD7E /* AMapCloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapCloudKit.framework; sourceTree = "<group>"; };
+		AC980F7495F5B0F42F7CFAC23F264CA3 /* AMapCloudMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMapCloudMap.release.xcconfig; sourceTree = "<group>"; };
+		AE2DC766076635FE97661DD07CA128B0 /* Pods-HalalMap-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HalalMap-resources.sh"; sourceTree = "<group>"; };
+		CB9C3AE0C5C3203CCFD69E15FCF6F2A7 /* AMapLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMapLocation.release.xcconfig; sourceTree = "<group>"; };
+		DE52E79F4F383DB3B9E5D07BDF95C790 /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		E1F52A2DD4B18CE9EB259C883BE3135A /* AMapCloudMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMapCloudMap.debug.xcconfig; sourceTree = "<group>"; };
+		E496B084ABE7CE5D5CDF55BFAD850FB4 /* Pods-HalalMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HalalMap.debug.xcconfig"; sourceTree = "<group>"; };
+		E639D26CF471CC35044C42BF427E10F7 /* AMap2DMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMap2DMap.release.xcconfig; sourceTree = "<group>"; };
+		ED215207DE91F1F68223F4C6A6E61D71 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		ED35088D010D64C315DE7A44E7E6F299 /* Pods-HalalMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HalalMap-dummy.m"; sourceTree = "<group>"; };
+		F1F28D7029F30863D2B0A4F802A49BC8 /* UMengAnalytics-NO-IDFA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UMengAnalytics-NO-IDFA.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		833ED7954A6C76C01D2F8DA4DA345F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104245AAC39F94CD242DAE8020004BAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F8D101D20C8AB840FCDE77C95F2E3E5 /* AMapLocationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1320E2516D449A48CA277119957E203E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				408C8472DE1C13927B6EF746B1884341 /* AMap2DMap.debug.xcconfig */,
+				E639D26CF471CC35044C42BF427E10F7 /* AMap2DMap.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMap2DMap";
+			sourceTree = "<group>";
+		};
+		22C99047834459EEFEE5D3D33047172A /* Pods-HalalMap */ = {
+			isa = PBXGroup;
+			children = (
+				16D9F9D2DF473AA0B7CFEFE0301A9A2B /* Pods-HalalMap-acknowledgements.markdown */,
+				0CD9ABF1FE539EB54E27CA59025A8A07 /* Pods-HalalMap-acknowledgements.plist */,
+				ED35088D010D64C315DE7A44E7E6F299 /* Pods-HalalMap-dummy.m */,
+				AE2DC766076635FE97661DD07CA128B0 /* Pods-HalalMap-resources.sh */,
+				E496B084ABE7CE5D5CDF55BFAD850FB4 /* Pods-HalalMap.debug.xcconfig */,
+				1AB0CE9B2243A47FBCA774BC863DC563 /* Pods-HalalMap.release.xcconfig */,
+			);
+			name = "Pods-HalalMap";
+			path = "Target Support Files/Pods-HalalMap";
+			sourceTree = "<group>";
+		};
+		28CF742D12E4A803E2CEFD02BE4017EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8910E681F606D25A5657C7C23E237 /* AMap2DMap */,
+				DEE70B571F03C3E2CE32BABC98D3567B /* AMapCloudMap */,
+				774390F62A50C3B15674936103E8E686 /* AMapFoundation */,
+				F7C460526CF81A020E5CE1212CA43E6C /* AMapLocation */,
+				74DAE6D452DCC983FD5F3793D578B0E8 /* UMengAnalytics-NO-IDFA */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F3BEB20A4B9A573519AB727DEBF20D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A91B9C8DA99B923FC276EC96726ABA3 /* AMapFoundation.debug.xcconfig */,
+				75D0C8487E095401F81BCBDF7119F89C /* AMapFoundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMapFoundation";
+			sourceTree = "<group>";
+		};
+		31FA1BB99D93EF985E285C707735B7CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB29F8FB53895FD198B8FFB13ABD7E /* AMapCloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CD765B42178025AE931048B8AA968BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1F28D7029F30863D2B0A4F802A49BC8 /* UMengAnalytics-NO-IDFA.debug.xcconfig */,
+				577918C5DCD4D5B3206519409C0BF546 /* UMengAnalytics-NO-IDFA.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMengAnalytics-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		67697A4DD783194E90707C877FA15584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFC8A4C0CD9BEC3FC146F6D93B41B1 /* Pods-HalalMap */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DAE6D452DCC983FD5F3793D578B0E8 /* UMengAnalytics-NO-IDFA */ = {
+			isa = PBXGroup;
+			children = (
+				5CD765B42178025AE931048B8AA968BC /* Support Files */,
+			);
+			name = "UMengAnalytics-NO-IDFA";
+			path = "UMengAnalytics-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		768F15E95D904837123344DE6CF90245 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE52E79F4F383DB3B9E5D07BDF95C790 /* AMap.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		774390F62A50C3B15674936103E8E686 /* AMapFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				D3CD4B35916C3D8806C81BEC5A0E4329 /* Frameworks */,
+				2F3BEB20A4B9A573519AB727DEBF20D9 /* Support Files */,
+			);
+			name = AMapFoundation;
+			path = AMapFoundation;
+			sourceTree = "<group>";
+		};
+		7EA24304F16CF48AB905C1F471ECAC22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED215207DE91F1F68223F4C6A6E61D71 /* MAMapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8BF8049BEBC00D532AE7BE20D2172D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01078246D1EE6F085034B2028D513AB2 /* AMapCloud.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BCBCE0629F6709DF4B4D7865AB110F90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C99047834459EEFEE5D3D33047172A /* Pods-HalalMap */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0B29B08F5A52F8F743697A3ABFE8358 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1F52A2DD4B18CE9EB259C883BE3135A /* AMapCloudMap.debug.xcconfig */,
+				AC980F7495F5B0F42F7CFAC23F264CA3 /* AMapCloudMap.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMapCloudMap";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				28CF742D12E4A803E2CEFD02BE4017EF /* Pods */,
+				67697A4DD783194E90707C877FA15584 /* Products */,
+				BCBCE0629F6709DF4B4D7865AB110F90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3CD4B35916C3D8806C81BEC5A0E4329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495A8D000B9D5D8CA327F3B772B789A5 /* AMapFoundationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEE70B571F03C3E2CE32BABC98D3567B /* AMapCloudMap */ = {
+			isa = PBXGroup;
+			children = (
+				31FA1BB99D93EF985E285C707735B7CD /* Frameworks */,
+				B8BF8049BEBC00D532AE7BE20D2172D2 /* Resources */,
+				C0B29B08F5A52F8F743697A3ABFE8358 /* Support Files */,
+			);
+			name = AMapCloudMap;
+			path = AMapCloudMap;
+			sourceTree = "<group>";
+		};
+		F60652262A94E4255C2B005D410B733D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06898F0FFACBEE9F8738BACDDBB3A4BB /* AMapLocation.debug.xcconfig */,
+				CB9C3AE0C5C3203CCFD69E15FCF6F2A7 /* AMapLocation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMapLocation";
+			sourceTree = "<group>";
+		};
+		F7C460526CF81A020E5CE1212CA43E6C /* AMapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				104245AAC39F94CD242DAE8020004BAF /* Frameworks */,
+				F60652262A94E4255C2B005D410B733D /* Support Files */,
+			);
+			name = AMapLocation;
+			path = AMapLocation;
+			sourceTree = "<group>";
+		};
+		FBF8910E681F606D25A5657C7C23E237 /* AMap2DMap */ = {
+			isa = PBXGroup;
+			children = (
+				7EA24304F16CF48AB905C1F471ECAC22 /* Frameworks */,
+				768F15E95D904837123344DE6CF90245 /* Resources */,
+				1320E2516D449A48CA277119957E203E /* Support Files */,
+			);
+			name = AMap2DMap;
+			path = AMap2DMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF560850B7D21E7432C0F41A67B8D616 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A76E256E2698AD2FAF0C8F5691063716 /* Pods-HalalMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214E4E62483DF3FE2A5984C80F6534AC /* Build configuration list for PBXNativeTarget "Pods-HalalMap" */;
+			buildPhases = (
+				CF560850B7D21E7432C0F41A67B8D616 /* Headers */,
+				2B955455B87B343763C19D27D2AB43DD /* Sources */,
+				833ED7954A6C76C01D2F8DA4DA345F1C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B1F9A364E508B2CF664E6B266128729 /* PBXTargetDependency */,
+				A74BE540A3AC9D382BBBBD7CA238FCA3 /* PBXTargetDependency */,
+				2A46AE874823B91AD5D54A859FCD17B4 /* PBXTargetDependency */,
+				9EB06A05D9646EE32B95C5B82178A568 /* PBXTargetDependency */,
+				CA5679581DE1AC673F855BDD9AE3CCBB /* PBXTargetDependency */,
+			);
+			name = "Pods-HalalMap";
+			productName = "Pods-HalalMap";
+			productReference = 4FAFC8A4C0CD9BEC3FC146F6D93B41B1 /* Pods-HalalMap */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 67697A4DD783194E90707C877FA15584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8628BC7F8FF0BA905278BC233A7C0362 /* AMap2DMap */,
+				2576DAF731B7A8E8F41D221C923A2CF4 /* AMapCloudMap */,
+				39082CE2CA8065D786A75F5C09CFF2C0 /* AMapFoundation */,
+				971676D1C9A11C105647D995975ACE4F /* AMapLocation */,
+				A76E256E2698AD2FAF0C8F5691063716 /* Pods-HalalMap */,
+				796531B66EA1E8FC8D94C8A6835B4A5D /* UMengAnalytics-NO-IDFA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B955455B87B343763C19D27D2AB43DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCF4684C618F3B7A48EF4BA282AEA53 /* Pods-HalalMap-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B1F9A364E508B2CF664E6B266128729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMap2DMap;
+			target = 8628BC7F8FF0BA905278BC233A7C0362 /* AMap2DMap */;
+			targetProxy = E1DF60E10A47EFB5A993139826236437 /* PBXContainerItemProxy */;
+		};
+		2A46AE874823B91AD5D54A859FCD17B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMapFoundation;
+			target = 39082CE2CA8065D786A75F5C09CFF2C0 /* AMapFoundation */;
+			targetProxy = EE4C702693E3B6CD64B7FC2EE7413C79 /* PBXContainerItemProxy */;
+		};
+		71812AEEE00E21033F1E9F203D2CB728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMapFoundation;
+			target = 39082CE2CA8065D786A75F5C09CFF2C0 /* AMapFoundation */;
+			targetProxy = CACB5B6FAB8F3408480F0536E8168E19 /* PBXContainerItemProxy */;
+		};
+		9EB06A05D9646EE32B95C5B82178A568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMapLocation;
+			target = 971676D1C9A11C105647D995975ACE4F /* AMapLocation */;
+			targetProxy = 6A6BABF5003EFB48C451E020D016F28C /* PBXContainerItemProxy */;
+		};
+		A74BE540A3AC9D382BBBBD7CA238FCA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMapCloudMap;
+			target = 2576DAF731B7A8E8F41D221C923A2CF4 /* AMapCloudMap */;
+			targetProxy = C0537884031C07529287978A0C7A0D5D /* PBXContainerItemProxy */;
+		};
+		C65074991712BF5B81EF8786B9CFD89C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMapFoundation;
+			target = 39082CE2CA8065D786A75F5C09CFF2C0 /* AMapFoundation */;
+			targetProxy = 019D2A37A596275138938A60FC5E4FEA /* PBXContainerItemProxy */;
+		};
+		CA5679581DE1AC673F855BDD9AE3CCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UMengAnalytics-NO-IDFA";
+			target = 796531B66EA1E8FC8D94C8A6835B4A5D /* UMengAnalytics-NO-IDFA */;
+			targetProxy = FB9D0F9E8E13E85BF102D3012EA8310A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25C6A1D141110E1B4EC3BE65EDAD5A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2DE090FB7FEE72A95316A891CEACED65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06898F0FFACBEE9F8738BACDDBB3A4BB /* AMapLocation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		461C74ED0D91D7EDDAC0137EEDA5BD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F28D7029F30863D2B0A4F802A49BC8 /* UMengAnalytics-NO-IDFA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		466DADEE4CC0D736479FEF54773F978D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408C8472DE1C13927B6EF746B1884341 /* AMap2DMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48F5844F79CFB53CA5EB83AC7AEF727D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E496B084ABE7CE5D5CDF55BFAD850FB4 /* Pods-HalalMap.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B6EE173257CA17D4492CAAE1BE303D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E639D26CF471CC35044C42BF427E10F7 /* AMap2DMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6022F5E3E392BFE7BDE2AC71560ABC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D0C8487E095401F81BCBDF7119F89C /* AMapFoundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		693724BEEE95BDB96050E6E8996BAFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB0CE9B2243A47FBCA774BC863DC563 /* Pods-HalalMap.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85B05EFBC81C082DB6C8573D3C7CD207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577918C5DCD4D5B3206519409C0BF546 /* UMengAnalytics-NO-IDFA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85BB28A509C08329970541696FFB06E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9C3AE0C5C3203CCFD69E15FCF6F2A7 /* AMapLocation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E61F829F7DAAE6ECEA6EFBD6333F27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC980F7495F5B0F42F7CFAC23F264CA3 /* AMapCloudMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1114CD233C17D655845323A731DFB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A91B9C8DA99B923FC276EC96726ABA3 /* AMapFoundation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE9F0BA77323910FD75E08E2B7B7620F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F52A2DD4B18CE9EB259C883BE3135A /* AMapCloudMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDEB9CD035260BF99A3F8C3D4455A3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		214E4E62483DF3FE2A5984C80F6534AC /* Build configuration list for PBXNativeTarget "Pods-HalalMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F5844F79CFB53CA5EB83AC7AEF727D /* Debug */,
+				693724BEEE95BDB96050E6E8996BAFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C6A1D141110E1B4EC3BE65EDAD5A62 /* Debug */,
+				EDEB9CD035260BF99A3F8C3D4455A3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1CAA808A7E6FA8CFAEC9724EB0BBB9 /* Build configuration list for PBXAggregateTarget "AMapFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1114CD233C17D655845323A731DFB66 /* Debug */,
+				6022F5E3E392BFE7BDE2AC71560ABC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		640C70820B5894042A6C24A3B9704E99 /* Build configuration list for PBXAggregateTarget "UMengAnalytics-NO-IDFA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461C74ED0D91D7EDDAC0137EEDA5BD53 /* Debug */,
+				85B05EFBC81C082DB6C8573D3C7CD207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B274C3092A6DD72A1147A1D9EFF8326 /* Build configuration list for PBXAggregateTarget "AMap2DMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466DADEE4CC0D736479FEF54773F978D /* Debug */,
+				4B6EE173257CA17D4492CAAE1BE303D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4496923FC367CBCE99E10C795BEFBF6 /* Build configuration list for PBXAggregateTarget "AMapLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE090FB7FEE72A95316A891CEACED65 /* Debug */,
+				85BB28A509C08329970541696FFB06E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA47CDBE3CCFB1F8AD1D658E9C92B3AB /* Build configuration list for PBXAggregateTarget "AMapCloudMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9F0BA77323910FD75E08E2B7B7620F /* Debug */,
+				9E61F829F7DAAE6ECEA6EFBD6333F27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

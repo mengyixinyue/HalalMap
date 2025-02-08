@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HMSelectAddressView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="就餐地点" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1O-Vl-HXh">
+                    <rect key="frame" x="20" y="15" width="64" height="19.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="19.5" id="2o6-hF-CWO"/>
+                        <constraint firstAttribute="width" constant="64" id="TsH-am-pbM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xmb-6H-16A">
+                    <rect key="frame" x="20" y="0.0" width="300" height="0.5"/>
+                    <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="JJA-7y-dG9"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xR9-aC-bud">
+                    <rect key="frame" x="20" y="45.5" width="300" height="0.5"/>
+                    <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="3GY-Ap-tGN"/>
+                    </constraints>
+                </view>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ZUi-0L-6la">
+                    <rect key="frame" x="156" y="11" width="139" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="W8u-1Y-aPO"/>
+                        <constraint firstAttribute="width" constant="139" id="qgO-Pd-8qT"/>
+                    </constraints>
+                    <segments>
+                        <segment title="餐厅"/>
+                        <segment title="家里或其他"/>
+                    </segments>
+                    <color key="tintColor" red="0.14509803921568626" green="0.60784313725490191" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="segmentControlValueChanged:" destination="iN0-l3-epB" eventType="valueChanged" id="q0h-QD-aB2"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xR9-aC-bud" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="EPQ-oh-gXk"/>
+                <constraint firstItem="p1O-Vl-HXh" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Grz-uP-zwG"/>
+                <constraint firstAttribute="trailing" secondItem="xR9-aC-bud" secondAttribute="trailing" id="NNZ-LM-a5L"/>
+                <constraint firstItem="xmb-6H-16A" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OL9-fq-eol"/>
+                <constraint firstAttribute="trailing" secondItem="ZUi-0L-6la" secondAttribute="trailing" constant="25" id="Q02-4s-k1U"/>
+                <constraint firstItem="ZUi-0L-6la" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="isx-l3-fPP"/>
+                <constraint firstItem="xmb-6H-16A" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="oRY-5o-2g3"/>
+                <constraint firstAttribute="bottom" secondItem="xR9-aC-bud" secondAttribute="bottom" constant="4" id="oy9-AT-GJg"/>
+                <constraint firstAttribute="trailing" secondItem="xmb-6H-16A" secondAttribute="trailing" id="rau-oI-aLR"/>
+                <constraint firstItem="p1O-Vl-HXh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="t2g-c3-ijY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="_segment" destination="ZUi-0L-6la" id="LJC-kj-bOl"/>
+                <outlet property="_tipsLabel" destination="p1O-Vl-HXh" id="WEn-Kl-PdY"/>
+            </connections>
+            <point key="canvasLocation" x="242" y="11"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="HMEditPersonalInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PjH-Et-p2t">
+                        <rect key="frame" x="20" y="0.0" width="44" height="49.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="H2T-W0-MD7">
+                        <rect key="frame" x="291.5" y="16.5" width="8.5" height="16.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16.5" id="91u-au-Yu4"/>
+                            <constraint firstAttribute="width" constant="8.5" id="ayb-mq-kSl"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="peW-sY-19c">
+                        <rect key="frame" x="20" y="49.5" width="280" height="0.5"/>
+                        <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="oSc-O2-bKL"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcl-aN-vsN">
+                        <rect key="frame" x="229.5" y="0.0" width="42" height="49.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PjH-Et-p2t" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="419-au-DgO"/>
+                    <constraint firstAttribute="trailing" secondItem="peW-sY-19c" secondAttribute="trailing" constant="20" id="EBa-Ml-947"/>
+                    <constraint firstAttribute="trailing" secondItem="H2T-W0-MD7" secondAttribute="trailing" constant="20" id="GeY-2t-E7h"/>
+                    <constraint firstItem="jcl-aN-vsN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="J7f-xV-cmj"/>
+                    <constraint firstAttribute="bottom" secondItem="jcl-aN-vsN" secondAttribute="bottom" id="Mvs-vX-ddP"/>
+                    <constraint firstItem="H2T-W0-MD7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PU0-ir-XQI"/>
+                    <constraint firstAttribute="bottom" secondItem="PjH-Et-p2t" secondAttribute="bottom" id="UPw-K1-qb2"/>
+                    <constraint firstAttribute="bottom" secondItem="peW-sY-19c" secondAttribute="bottom" id="Xcc-9W-MEU"/>
+                    <constraint firstItem="PjH-Et-p2t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jdy-Ae-LeO"/>
+                    <constraint firstItem="H2T-W0-MD7" firstAttribute="leading" secondItem="jcl-aN-vsN" secondAttribute="trailing" constant="20" id="uJs-br-7lV"/>
+                    <constraint firstItem="peW-sY-19c" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="xrR-Lf-DZ5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="_contentLabel" destination="jcl-aN-vsN" id="b3K-vH-prp"/>
+                <outlet property="_titleLabel" destination="PjH-Et-p2t" id="wCH-Rj-2s7"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="right_arrow" width="8" height="16"/>
+    </resources>
+</document>
